@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url(./Minecraft.woff)
+}
+
+* {
+    font-family: 'Minecraft';
+    font-size: 3.5vh;
+    color: white;
+}
+
+body {
+    background-color: brown;
+    padding: 0%;
+    margin: 0%;
+}
+
+section {
+    margin-left: 1vw;
+}
+
+h1 {
+    font-size: 5vh;
+}
+
+p {
+    width: 75vw;
+    margin-top: 0%;
+    font-size: 3.5vh;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 1vw;
+}
+
+li a {
+    display: block;
+    width: 50vh;
+    height: 5vh;
+    background-color: lightgray;
+    margin-bottom: 2vh;
+    align-items: center;
+    
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+.banner {
+    width: 100vw;
+    height: 12.5vh;
+    object-fit: cover;
+    padding: 0%;
+    margin: 0%;
+}
+
+.background {
+    
+}
