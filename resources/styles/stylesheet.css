@@ -13,27 +13,38 @@ body {
     background-size: 10vw;
     padding: 0;
     margin: 0;
-
+    border: 0;
 }
 
 section {
     margin-left: 1vw;
 }
 
-.interface3 { /* for the construction of 3-segment interfaces */
+.interface { /* for the construction of segmented interfaces */
     display: grid;
     grid-template-columns: auto auto auto;
     align-items: center;
-    width: 90vw;
-    height: 50vh;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    align-self: center;
+    width: 100vw;
+    height: 55vh;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    padding: 0;
+    border: 0;
 }
 
-.interface3 div { /* 1/3 segments */
-    width: 30vw;
+.int3middle {
+    width: 20vw;
     height: auto;
     place-items: center;
+    ;
+}
+
+.int3side {
+    width: 40vw;
+    height: auto;
+    place-items: center;
+    ;
 }
 
 input { /* for input fields and calculated outputs */
@@ -48,7 +59,8 @@ input { /* for input fields and calculated outputs */
     border: 3px solid #dfdfdf;
     margin-bottom: 3vh;
     text-align: left;
-    padding-left: 0.5vh;
+    padding-left: 0;
+    padding-right: 0;
     line-height: 5.5vh;
     box-sizing: border-box;
     text-decoration: none;
@@ -75,11 +87,17 @@ select { /* for that one dropdown */
     text-decoration: none;
     box-shadow: inset 0vh -0.5vh #555555;
     margin-bottom: 5vh;
-    margin-top: 5vh
+    margin-top: 5vh;
+    size: 4;
 }
 
 h1 {
     font-size: 5vh;
+}
+
+.homearrow {
+    color: #FFFFFF;
+    font-size: 3vh;
 }
 
 p {

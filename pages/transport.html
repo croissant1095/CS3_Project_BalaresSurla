@@ -14,22 +14,30 @@
   <body background="../resources/images/backgrounds/bg-nether.png">
     <img src="../resources/images/banners/banner-transport.jpg" class="banner">
     <section>
-      <h1>NETHER COORDINATES CALCULATOR</h1><br>
+      <a href="../index.html" class="homearrow">&lt&lt BACK</a>
+      
+      <h1>TRANSPORTATION TIME CALCULATOR</h1><br>
 
-      <div class="interface3">
-        <div>
-          <input type="number" placeholder="Overworld X value">
+      <div class="interface">
+        <div class="int3side">
+          <input type="number" placeholder="Starting X value">
+          <input type="number" placeholder="Starting Z value">
+          <input type="number" placeholder="Destination X value">
+          <input type="number" placeholder="Destination Z value">
           <select>
+            <option value="" disabled selected>Mode of Transportation</option>
             <option value="walk">Walking</option>
             <option value="sprint">Sprinting</option>
             <option value="horse">Horse</option>
             <option value="boat">Boat</option>
+            <option value="elytra">Elytra</option>
+            <option value="blue">Blue Ice Highway</option>
           </select>
         </div>
-        <div>
+        <div class="int3middle">
           <h1>AAAA</h1>
         </div>
-        <div>
+        <div class="int3side">
           <input type="number" placeholder="Travel Time (seconds)">
         </div>
       </div>
