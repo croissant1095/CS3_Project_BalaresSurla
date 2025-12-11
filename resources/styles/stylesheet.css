@@ -10,9 +10,10 @@
 }
 
 body {
-    background-color: brown;
-    padding: 0%;
-    margin: 0%;
+    background-size: 10vw;
+    padding: 0;
+    margin: 0;
+
 }
 
 section {
@@ -29,20 +30,36 @@ p {
     font-size: 3.5vh;
 }
 
+.mainparagraph { /* main paragraph in index */
+    margin-left: 5vw;
+}
+
 ul {
     list-style-type: none;
-    margin-left: 1vw;
+    margin-left: 5vw;
+    padding: 0vw;
 }
 
 li a {
     display: block;
     width: 50vh;
-    height: 5vh;
-    background-color: lightgray;
-    margin-bottom: 2vh;
-    align-items: center;
-    
+    height: 5.5vh;
+    background-color: #ababab;
+    background-image: url(../images/elements/stonetransparent.png);
+    background-size: 100%;
+    outline: 2px solid #000000;
+    border: 3px solid #dfdfdf;
+    margin-bottom: 3vh;
+    text-align: left;
+    padding-left: 0.5vh;
+    line-height: 5.5vh;
+    box-sizing: border-box;
     text-decoration: none;
+    box-shadow: inset 0vh -0.5vh #555555;
+}
+
+li:last-child {
+    margin-bottom: 0vh;
 }
 
 img {
@@ -55,8 +72,4 @@ img {
     object-fit: cover;
     padding: 0%;
     margin: 0%;
-}
-
-.background {
-    
 }
