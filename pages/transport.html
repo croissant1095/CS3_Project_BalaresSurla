@@ -22,11 +22,11 @@
 
       <div class="interface">
         <div class="int3side">
-          <input type="number" placeholder="Starting X value">
-          <input type="number" placeholder="Starting Z value">
-          <input type="number" placeholder="Destination X value">
-          <input type="number" placeholder="Destination Z value">
-          <select>
+          <input id="startx" type="number" placeholder="Starting X value">
+          <input id="startz" type="number" placeholder="Starting Z value">
+          <input id="finalx" type="number" placeholder="Destination X value">
+          <input id="finalz" type="number" placeholder="Destination Z value">
+          <select id="transport">
             <option value="" disabled selected>Mode of Transportation</option>
             <option value="walk">Walking</option>
             <option value="sprint">Sprinting</option>
@@ -35,7 +35,7 @@
             <option value="elytra">Elytra</option>
             <option value="blue">Blue Ice Highway</option>
           </select>
-          <button id="calcbutton">Calculate!</button>
+          <button id="calcbutton" onclick="check()">Calculate!</button>
         </div>
         <div class="int3middle">
           <img class="expimage" src="../resources/images/elements/twowayarrow.png">
