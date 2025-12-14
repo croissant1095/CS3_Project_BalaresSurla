@@ -11,22 +11,22 @@ function calculate(xstart, zstart, xfinal, zfinal) {
     let distance = Math.sqrt(((xfinal-xstart)**2) + ((zfinal-zstart)**2));
     console.log(distance)
     if (transport.value == "walk") {
-        traveltime.value = distance / 4.317; 
+        traveltime.value = (distance / 4.317).toFixed(1); 
     }
     else if (transport.value == "sprint") {
-        traveltime.value = distance / 5.612;
+        traveltime.value = (distance / 5.612).toFixed(1);
     }
     else if (transport.value == "horse") {
-        traveltime.value = distance / 9.7;
+        traveltime.value = (distance / 9.7).toFixed(1);
     }
     else if (transport.value == "boat") {
-        traveltime.value = distance / 8;
+        traveltime.value = (distance / 8).toFixed(1);
     }
     else if (transport.value == "elytra") {
-        traveltime.value = distance / 33;
+        traveltime.value = (distance / 33).toFixed(1);
     }
     else if (transport.value = "blue") {
-        traveltime.value = distance / 72.7;
+        traveltime.value = (distance / 72.7).toFixed(1);
     }
 }
 

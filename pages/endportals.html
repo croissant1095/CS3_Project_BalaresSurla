@@ -22,32 +22,25 @@
 
     <div class="interface">
         <div class="int3side">
-          <input type="number" placeholder="Starting X">
-          <input type="number" placeholder="Starting Z">
-          <input type="number" placeholder="1st Throw X">
-          <input type="number" placeholder="1st Throw Z">
-          <input type="number" placeholder="1st Throw Angle">
-          <input type="number" placeholder="2nd Throw X">
-          <input type="number" placeholder="2nd Throw Z">
-          <input type="number" placeholder="2nd Throw Angle">
+          <input id="x1" type="number" placeholder="1st Throw X">
+          <input id="z1" type="number" placeholder="1st Throw Z">
+          <input id="a1" type="number" placeholder="1st Throw Angle">
+          <input id="x2" type="number" placeholder="2nd Throw X">
+          <input id="z2" type="number" placeholder="2nd Throw Z">
+          <input id="a2" type="number" placeholder="2nd Throw Angle">
         </div>
         <div class="int3middle">
           <button>Calculate</button>
-          <input type="number" placeholder="Portal X" readonly>
-          <input type="number" placeholder="Portal Z" readonly>
+          <input id="xport" type="number" placeholder="Portal X" readonly>
+          <input id="zport" type="number" placeholder="Portal Z" readonly>
         </div>
         <div class="int3side">
-          <div class="int3sub">
-            <div class="graph">
-                
-            </div>
-          </div>
           <div class="int3sub">
                 <input type="button" onclick="location.href='./endportalsmanual.html';" value="How to Use?">
             </div>
         </div>
       </div>
 
-      <script src=""></script>
+      <script src="../resources/scripts/end.js"></script>
   </body>
 </html>

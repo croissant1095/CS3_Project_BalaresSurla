@@ -30,7 +30,7 @@ function calculate(levelstart, levelend) {
 
         // encodes the values
         expgross.value = expsum;
-        expbottles.value = expsum / 7;
+        expbottles.value = (expsum / 7).toFixed(1);
         expzombies.value = expsum / 5;
     }
     
