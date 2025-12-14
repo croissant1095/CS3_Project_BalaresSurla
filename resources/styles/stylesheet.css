@@ -48,11 +48,27 @@ section {
 .int3sub { /* for aligning images above exp indicators */
     width: 40vw;
     display: block;
+    place-items: center;
 }
 
 .int2 { /* for the halves of a 2-segment interface */
     width: 40vw;
     height: auto;
+    place-items: center;
+}
+
+.graph { /* for the background of the graph */
+    display: block;
+    width: 25vw;
+    aspect-ratio: 1/1;
+    background-color: #eeeeee;
+    margin-right: 7.5vw;
+    margin-left: 7.5vw;
+    margin-bottom: 3vh;
+    box-shadow: inset 0vh -0.5vh #555555;
+    outline: 2px solid #000000;
+    border: 3px solid #dfdfdf;
+    box-sizing: border-box;
     place-items: center;
 }
 
@@ -171,7 +187,7 @@ img {
     margin: 0%;
 }
 
-.expimage {
+.expimage { /* for the images used in exp page and similarly sized elements */
     width: 10vw;
     height: auto;
 }
