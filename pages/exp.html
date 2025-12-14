@@ -22,8 +22,9 @@
 
     <div class="interface">
         <div class="int3side">
-          <input type="number" placeholder="Level to achieve">
-          <input type="number" placeholder="Starting level">
+          <input id="levelend" type="number" placeholder="Level to achieve">
+          <input id="levelstart" type="number" placeholder="Starting level">
+          <button id="calcbutton" onclick="check()">Calculate!</button>
         </div>
         <div class="int3middle">
           <img class="expimage" src="../resources/images/elements/onewayarrow.png">
@@ -40,12 +41,12 @@
               <img class="expimage" src="../resources/images/elements/zombie.webp">
             </div>
           </div>
-          <input class="expindicator" type="number" placeholder="Exp to gain" readonly>
-          <input class="expindicatormiddle" type="number" placeholder="Exp bottles" readonly>
-          <input class="expindicator" type="number" placeholder="Zombies" readonly>
+          <input id="expgross" class="expindicator" type="number" placeholder="Exp to gain" readonly>
+          <input id="expbottles" class="expindicatormiddle" type="number" placeholder="Exp bottles" readonly>
+          <input id="expzombies" class="expindicator" type="number" placeholder="Zombies" readonly>
         </div>
       </div>
 
-      <script src=""></script>
+      <script src="../resources/scripts/exp.js"></script>
   </body>
 </html>
