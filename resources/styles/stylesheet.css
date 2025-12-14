@@ -95,6 +95,10 @@ input { /* for input fields and calculated outputs */
     
 }
 
+input[type=button] {
+    text-align: center;
+}
+
 .expindicator, .expindicatormiddle { /* for the exp equivalent things */
     width: 20vh;
     display: inline-block;
