@@ -3,6 +3,7 @@ let overworldz = document.getElementById("overworldz");
 let netherx = document.getElementById("netherx");
 let netherz = document.getElementById("netherz");
 
+
 function calculateOverworldX(x) {
     overworldx.value = x * 8;
 }
@@ -17,6 +18,7 @@ function calculateNetherZ(z) {
     netherz.value = z / 8;
 }
 
+// these four functions verify that the required values are present for calculations
 function checkOverworldX() {
     let xvalue = overworldx.value;
     if ((xvalue != "") && !isNaN(Number(xvalue))) {
@@ -45,6 +47,7 @@ function checkNetherZ() {
     }
 }
 
+// event listeners added once body loads in
 document.addEventListener("DOMContentLoaded", (event)=> {
     overworldx.addEventListener('input', checkOverworldX);
     overworldz.addEventListener('input', checkOverworldZ);
