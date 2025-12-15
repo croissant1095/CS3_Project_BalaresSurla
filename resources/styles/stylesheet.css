@@ -218,3 +218,33 @@ button {
     margin-top: 5vh;
     text-align: center;
 }
+
+/* hovers */
+
+input:hover {
+    background-color: #898989;
+}
+
+button:hover {
+    background-color: #898989;
+}
+
+select:hover {
+    background-color: #898989;
+}
+
+li a:hover {
+    background-color: #898989;
+}
+
+/* text styles */ 
+
+.end {
+    color: #ff55ff;
+}
+
+.nether {
+    background: linear-gradient(to right, #ffb800, #ff2e00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
