@@ -137,8 +137,8 @@ h1 {
 }
 
 .homearrow { /* self-explanatory */
-    color: #FFFFFF;
     font-size: 3vh;
+    text-decoration: none;
 }
 
 p {
@@ -245,6 +245,12 @@ li a:hover {
 
 .nether {
     background: linear-gradient(to right, #ffb800, #ff2e00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.experience {
+    background: linear-gradient(to right, #ffe00e, #00ff21);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
