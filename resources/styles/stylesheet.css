@@ -227,6 +227,10 @@ input:hover {
     background-color: #898989;
 }
 
+input:hover::placeholder {
+    color: white;
+}
+
 button:hover {
     background-color: #898989;
 }
