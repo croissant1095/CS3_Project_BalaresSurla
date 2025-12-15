@@ -28,6 +28,9 @@ function checkall() {
              Number(z2.value), 
              Number(a2.value)) // can never be too safe, right?
     }
+    else {
+        alert("Inputs are incomplete or invalid.")
+    }
 }
 
 // actual meat
@@ -65,14 +68,4 @@ function find(x1, z1, a1, x2, z2, a2) {
     xport.value = xp.toFixed(1);
     zport.value = zp.toFixed(1);
 
-}
-
-// event listeners added once body loads in
-document.addEventListener("DOMContentLoaded", (event)=> {
-    x1.addEventListener('input', checkall);
-    z1.addEventListener('input', checkall);
-    a1.addEventListener('input', checkall);
-    x2.addEventListener('input', checkall);
-    z2.addEventListener('input', checkall);
-    a2.addEventListener('input', checkall);
-})
+} 
