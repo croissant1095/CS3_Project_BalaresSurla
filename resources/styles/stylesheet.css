@@ -29,6 +29,8 @@ section {
     height: 55vh;
     margin-left: 0vw;
     margin-right: 0vw;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
     padding: 0;
     border: 0;
 }
