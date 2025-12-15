@@ -51,13 +51,13 @@ section {
     place-items: center;
 }
 
-.int2 { /* for the halves of a 2-segment interface */
+.int2 { /* for the halves of a 2-segment interface, unused but just in case */
     width: 40vw;
     height: auto;
     place-items: center;
 }
 
-.graph { /* for the background of the graph */
+.graph { /* for the background of the graph, unused but just in case */
     display: block;
     width: 25vw;
     aspect-ratio: 1/1;
@@ -73,10 +73,11 @@ section {
 }
 
 input { /* for input fields and calculated outputs */
-    font-size: 2.5vh;
+    font-size: 20pt;
     display: block;
-    width: 35vh;
-    height: 5.5vh;
+    aspect-ratio: 30/2.5;
+    width: auto;
+    height: auto;
     background-color: #ababab;
     background-image: url(../images/elements/stonetransparent.png);
     background-size: 100%;
