@@ -260,3 +260,8 @@ li a:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.reference {
+    margin-left: 5vw;
+    text-indent: -5vw;
+}
