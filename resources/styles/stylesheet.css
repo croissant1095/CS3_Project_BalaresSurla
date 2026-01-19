@@ -18,6 +18,11 @@ body {
 
 section {
     margin-left: 1vw;
+    flex-wrap: wrap;
+}
+
+div {
+    flex-wrap: wrap;
 }
 
 .interface { /* for the construction of segmented interfaces */
