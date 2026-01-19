@@ -5,7 +5,7 @@
 
 * {
     font-family: 'Minecraft';
-    font-size: 1.969vw;
+    font-size: 3.5vh;
     color: white;
 }
 
@@ -75,7 +75,7 @@ section {
 }
 
 input { /* for input fields and calculated outputs */
-    font-size: 1.406vw;
+    font-size: 2.5vh;
     display: block;
     width: 35vh;
     height: 5.5vh;
@@ -113,7 +113,7 @@ input[type=button] {
 }
 
 select { /* for that one dropdown */
-    font-size: 1.406vw;
+    font-size: 2.5vh;
     display: block;
     width: 35vh;
     height: 5.5vh;
@@ -135,18 +135,18 @@ select { /* for that one dropdown */
 }
 
 h1 {
-    font-size: 1.687vw;
+    font-size: 5vh;
 }
 
 .homearrow { /* self-explanatory */
-    font-size: 1.687vw;
+    font-size: 3vh;
     text-decoration: none;
 }
 
 p {
     width: 75vw;
     margin-top: 0%;
-    font-size: 1.969vw;
+    font-size: 3.5vh;
 }
 
 .mainparagraph { /* main paragraph in index */
@@ -199,7 +199,7 @@ img {
 }
 
 button {
-    font-size: 1.693vw;
+    font-size: 3.01vh;
     display: block;
     width: 35vh;
     height: 6.1vh;
