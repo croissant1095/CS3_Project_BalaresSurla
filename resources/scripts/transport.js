@@ -4,11 +4,13 @@ let finalx = document.getElementById("finalx");
 let finalz = document.getElementById("finalz");
 let transport = document.getElementById("transport");
 let traveltime = document.getElementById("traveltime");
+let distanceoutput = document.getElementById("distance")
 
 // to find travel time, distance must be divided by speed
 function calculate(xstart, zstart, xfinal, zfinal) {
     // using the distance formula for a 2d space
     let distance = Math.sqrt(((xfinal-xstart)**2) + ((zfinal-zstart)**2));
+    distanceoutput.value = distance.toFixed(1);
     console.log(distance)
     if (transport.value == "walk") {
         traveltime.value = (distance / 4.317).toFixed(1); 

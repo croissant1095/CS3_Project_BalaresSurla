@@ -30,6 +30,8 @@ section {
     height: 55vh;
     margin-left: 0vw;
     margin-right: 0vw;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
     padding: 0;
     border: 0;
 }
@@ -138,8 +140,8 @@ h1 {
 }
 
 .homearrow { /* self-explanatory */
-    color: #FFFFFF;
     font-size: 3vh;
+    text-decoration: none;
 }
 
 p {
@@ -226,6 +228,14 @@ input:hover, :focus {
     background-color: #898989;
 }
 
+input:hover::placeholder {
+    color: white;
+}
+
+input:hover::placeholder {
+    color: white;
+}
+
 button:hover, :focus {
     background-color: #898989;
 }
@@ -248,4 +258,15 @@ li a:hover, :focus {
     background: linear-gradient(to right, #ffb800, #ff2e00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.experience {
+    background: linear-gradient(to right, #ffe00e, #00ff21);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.reference {
+    padding-left: 5vw;
+    text-indent: -5vw;
 }
