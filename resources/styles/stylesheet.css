@@ -7,6 +7,7 @@
     font-family: 'Minecraft';
     font-size: 3.5vh;
     color: white;
+    tabindex: 0;
 }
 
 body {
@@ -221,19 +222,19 @@ button {
 
 /* hovers */
 
-input:hover {
+input:hover, :focus {
     background-color: #898989;
 }
 
-button:hover {
+button:hover, :focus {
     background-color: #898989;
 }
 
-select:hover {
+select:hover, :focus {
     background-color: #898989;
 }
 
-li a:hover {
+li a:hover, :focus {
     background-color: #898989;
 }
 
