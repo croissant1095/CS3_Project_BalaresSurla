@@ -232,8 +232,8 @@ input:hover::placeholder {
     color: white;
 }
 
-input:hover::placeholder {
-    color: white;
+input:hover, :focus {
+    background-color: #898989;
 }
 
 button:hover, :focus {
