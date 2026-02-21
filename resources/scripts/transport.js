@@ -37,3 +37,9 @@ function check() {
         calculate(Number(startx.value), Number(startz.value), Number(finalx.value), Number(finalz.value));
     }
 }
+
+// flow:
+// when calculation goes through, record data in a localstorage object
+// show all info in a collapsable table
+
+function add_history(){}
