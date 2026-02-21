@@ -18,6 +18,11 @@ body {
 
 section {
     margin-left: 1vw;
+    flex-wrap: wrap;
+}
+
+div {
+    flex-wrap: wrap;
 }
 
 .interface { /* for the construction of segmented interfaces */
@@ -223,19 +228,27 @@ button {
 
 /* hovers */
 
-input:hover {
+input:hover, :focus {
     background-color: #898989;
 }
 
-button:hover {
+input:hover::placeholder {
+    color: white;
+}
+
+input:hover, :focus {
     background-color: #898989;
 }
 
-select:hover {
+button:hover, :focus {
     background-color: #898989;
 }
 
-li a:hover {
+select:hover, :focus {
+    background-color: #898989;
+}
+
+li a:hover, :focus {
     background-color: #898989;
 }
 
@@ -255,4 +268,9 @@ li a:hover {
     background: linear-gradient(to right, #ffe00e, #00ff21);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.reference {
+    padding-left: 5vw;
+    text-indent: -5vw;
 }
